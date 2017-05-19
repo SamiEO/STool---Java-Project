@@ -9,3 +9,4 @@ Two programs are required to run this program locally. First is Eclipse which is
 The program opens to a login window. Users can either login using existing credeantials or register by creating new ones. After logging in a window will open with currently active tickets created by the user. Normal users can only view their own tickets while admins can view everyones. The window also contains filters which can be used to choose whether you want to view avtice, closed or all tickets. The button for choosing whos tickets to display is greyed out for normal users.
 
 The user can create new tickets by clicking the "New ticket" -button. This will open a small window which will be used to give data to the new ticket. Clicking "ok" will add the ticket to the database. By cliking an existing ticket the user can edit delete an old ticket. Clicking the "logout" -button will allow the user to switch between different users.
+ 
