@@ -1,12 +1,14 @@
-
+//Class used as a framework for Ticket objects
 public class Ticket {
 
+	//Private variables corresponding the values found in the database
 	private int tID, tUID;
 	private String tTitle;
 	private String tDesc;
 	private String tStatus;
 	private String tCreated;
 	
+	//The class constructor which assigns values to the private variables
 	public Ticket(int ID,int UID, String Title, String Desc, String Status, String Created){
 		this.tID = ID;
 		this.tUID = UID;
@@ -15,6 +17,7 @@ public class Ticket {
 		this.tStatus = Status;
 		this.tCreated = Created;
 	}
+	//Public methods which allow other classes to read the private values
 	public int getID(){
 		return this.tID;
 	}

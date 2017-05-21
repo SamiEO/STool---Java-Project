@@ -1,10 +1,8 @@
-import java.awt.Toolkit;
-
-import javax.print.attribute.AttributeSet;
 import javax.swing.text.BadLocationException;
 import javax.swing.text.DocumentFilter;
 //This class is used to set maximum lengths for different inputfields
-//	The code can be found at: http://stackoverflow.com/a/24473097
+// NOTE! This code is not written by me but instead borrowed
+//		The source can be found at: http://stackoverflow.com/a/24473097
 public class LimitDocumentFilter extends DocumentFilter{
 	private int limit;
 	

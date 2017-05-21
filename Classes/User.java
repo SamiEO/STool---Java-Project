@@ -1,6 +1,7 @@
-
+//Class used as a framework for User objects
 public class User {
 
+	//Private variables corresponding the values found in the database
 	private int uID;
 	private String uFName;
 	private String uLName;
@@ -8,6 +9,7 @@ public class User {
 	private String uEmail;
 	private String uPass;
 	
+	//The class constructor which assigns values to the private variables
 	public User(int iD, String fName, String lName, String type, String email, String pass){
 		this.uID = iD;
 		this.uFName = fName;
@@ -16,6 +18,8 @@ public class User {
 		this.uEmail = email;
 		this.uPass = pass;
 	}
+	
+	//Public methods which allow other classes to read the private values
 	public int getID()
 	{
 		return this.uID;
